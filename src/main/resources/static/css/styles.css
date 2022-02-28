@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("../img/wine-gf254ca7b8_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#clock-digital {
+    text-align: center;
+    background-color: transparent;
+    color: gold;
+    margin-left: 5vw;
+    margin-right: auto;
+    margin: 30px auto 30px 5vw;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-style: bold;
+    border: 3px solid goldenrod;
+    width: 600px;
+    text-shadow: 2px 2px 10px rgb(243, 255, 139);
+}
+
+#clock-shield {
+    position: relative;
+    opacity: 0.7;
+    width: 600px;
+    height: 600px;
+    margin-left: 5vw;
+    margin-right: auto;
+    z-index: 0;
+}
+
+#clock-shield img {
+    position: absolute;
+}
+
+.clock-hand {
+    transform-origin: bottom;
+}
+
+.clock-hand.seconds {
+    left: 291px;
+    z-index: 3;
+}
+
+.clock-hand.minutes {
+    left: 290px;
+    top: 80px;
+    z-index: 2;
+}
+
+.clock-hand.hours {
+    left: 289px;
+    top: 120px;
+    z-index: 1;
+}
+
+#clock-shield #center-nail {
+    left: 285px;
+    top: 285px;
+    z-index: 4;
+}
