@@ -12,7 +12,7 @@
 
 	<groupId>io.github.daniezyla</groupId>
 	<artifactId>springboot-docker</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>springboot-docker</name>
 	<description>Demo project for Spring Boot</description>
 
