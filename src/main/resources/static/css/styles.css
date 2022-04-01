@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url("../img/wine-gf254ca7b8_1920.jpg");
+    background-image: url("../img/hourglass-2910948.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -22,14 +22,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3rem;
     font-style: bold;
-    border: 3px solid goldenrod;
+    border: 3px solid gold;
     width: 600px;
-    text-shadow: 2px 2px 10px rgb(243, 255, 139);
+    text-shadow: 2px 2px 2px black;
+    box-shadow: inset 2px 2px 2px black, 2px 2px 2px black;
 }
 
-#clock-shield {
+#clock-whole {
     position: relative;
-    opacity: 0.7;
     width: 600px;
     height: 600px;
     margin-left: 5vw;
@@ -37,7 +37,7 @@ body {
     z-index: 0;
 }
 
-#clock-shield img {
+#clock-whole img {
     position: absolute;
 }
 
@@ -62,8 +62,12 @@ body {
     z-index: 1;
 }
 
-#clock-shield #center-nail {
+#clock-whole #center-nail {
     left: 285px;
     top: 285px;
     z-index: 4;
+}
+
+#clock-shield {
+    opacity: 0.6;
 }

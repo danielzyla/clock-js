@@ -9,7 +9,7 @@ if (time.getHours > 12) {
 } else periodPerHour = (time.getHours() + time.getMinutes() / 60) * 30;
 const clockHandHours = document.querySelector(".clock-hand.hours");
 const clockShieldHandle = document.querySelector("#clock-shield");
-const clockDigitalHandle = document.querySelector("#clock-digital");
+const clockDigitalHandle = document.querySelector("#clock-whole");
 
 function rotateSecondHand() {
     periodPerSecond += 6;
